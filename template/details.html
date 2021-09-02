@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CloudHeros - Details</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="../style/details.css" />
+    <script src="../bootstrap/jquery-3.5.1.min.js" defer></script>
+    <script src="../bootstrap/js/bootstrap.js" defer></script>
+    <link rel="stylesheet" href="../fontawesome-free-5.12.0-web/css/all.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io (5)/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io (5)/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io (5)/favicon-16x16.png">
+    <link rel="manifest" href="../favicon_io (5)/site.webmanifest">
+
+</head>
+
+<body>
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand mr-5" href="index.html">CloudHeros</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse navbar-div" id="navbarNav">
+                <ul class="navbar-nav mr-4">
+                    <li class="nav-item dropdown navbar-animation navbar-main-style mr-3 BigScreen">
+                        <a class="nav-link" href="mainItem.html" id="navbarDropdown">
+                            Windows
+                        </a>
+                        <div class="dropdown-menu left-dropdown dropdown-show" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Windows11</a>
+                            <a class="dropdown-item" href="#">windows10</a>
+                            <a class="dropdown-item" href="#">windows10</a>
+                        </div>
+                    </li>
+
+
+
+                    <!-- Small Screen -->
+                    <li class="nav-item dropdown navbar-main-style mr-3 SmallScreen">
+                        <a class="nav-link dropdown-toggle" href="mainItem.html" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Windows
+                        </a>
+                        <div class="dropdown-menu dropdown-show" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Windows11</a>
+                            <a class="dropdown-item" href="#">windows10</a>
+                            <a class="dropdown-item" href="#">windows10</a>
+                        </div>
+                    </li>
+
+
+
+
+                    <li class="nav-item navbar-main-style mr-3">
+                        <a class="nav-link" href="details.html">Office365</a>
+                    </li>
+                    <li class="nav-item navbar-main-style mr-3">
+                        <a class="nav-link" href="details.html">SharePoint</a>
+                    </li>
+                    <li class="nav-item navbar-main-style mr-3">
+                        <a class="nav-link" href="details.html">Security</a>
+                    </li>
+
+
+                    <li class="nav-item dropdown navbar-animation navbar-main-style mr-3 BigScreen">
+                        <a class="nav-link" href="submain-server.html" id="navbarDropdown" aria-haspopup="true" aria-expanded="false">
+                            Server
+                        </a>
+                        <div class="dropdown-menu left-dropdown dropdown-show" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Exchange Server</a>
+                            <a class="dropdown-item" href="#">SQL Server</a>
+                        </div>
+                    </li>
+                    <!-- Small Screen  -->
+
+
+                    <li class="nav-item dropdown  navbar-main-style mr-3 SmallScreen">
+                        <a class="nav-link dropdown-toggle" href="submain-server.html" id="navbarDropdown" aria-haspopup="true"
+                            data-toggle="dropdown" aria-expanded="false">
+                            Server
+                        </a>
+                        <div class="dropdown-menu dropdown-show" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Exchange Server</a>
+                            <a class="dropdown-item" href="#">SQL Server</a>
+                        </div>
+                    </li>
+
+
+
+                    <li class="nav-item dropdown navbar-animation navbar-main-style mr-3 BigScreen">
+                        <a class="nav-link" href="submain-cloud.html" id="navbarDropdown" aria-haspopup="true" aria-expanded="false">
+                            Cloud
+                        </a>
+                        <div class="dropdown-menu left-dropdown dropdown-show" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Google Cloud</a>
+                            <a class="dropdown-item" href="#">Microsoft Azure</a>
+                        </div>
+                    </li>
+
+
+
+
+                    <!-- Small Screen -->
+
+                    <li class="nav-item dropdown  navbar-main-style mr-3 SmallScreen">
+                        <a class="nav-link dropdown-toggle" href="submain-cloud.html" id="navbarDropdown" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Cloud
+                        </a>
+                        <div class="dropdown-menu left-dropdown dropdown-show" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Google Cloud</a>
+                            <a class="dropdown-item" href="#">Microsoft Azure</a>
+                        </div>
+                    </li>
+
+
+
+                    <li class="nav-item dropdown navbar-animation navbar-main-style mr-3">
+                        <a class="nav-link nav-account" href="#" id="navbarDropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <i class="fas fa-user-circle"></i>
+                        </a>
+                        <div class="dropdown-menu left-dropdown dropdown-show" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="signup.html">Create Account</a>
+                            <a class="dropdown-item" href="login.html">Login</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Deatils -->
+
+
+    <main class="container-fluid main-single-content mt-4">
+        <section class="row sinlge-content p-5">
+            <div class="col-md-8 left-single-content p-4">
+                <div class="sinlge-content-title">
+                    <a class="single-t-anchor" href="#">Windows Server 2021</a>
+                    <h1 class="single-t-heading">Windows Server 2022 Now Available for Evaluation and to Volume License
+                        and Azure Customers</h1>
+                    <span class="single-t-span">By FaridDanish | Aug 24, 2021</span>
+                </div>
+                <div class="content-image">
+                    <img src="../assets/rubrik-microsoft.png" class="img-fluid" width="auto" height="500px" alt="">
+                </div>
+                <div class="article-content">
+                    <div class="article-content-div">
+                        <p class="article-paragraph text-justify">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Autem
+                            temporibus beatae repellendus,
+                            placeat quos aperiam reiciendis totam deleniti unde magnam nihil, officiis odio culpa ipsam
+                            neque commodi eius sit qui. Cupiditate deserunt iure incidunt sapiente praesentium saepe
+                            obcaecati aut, minus atque! Dolor placeat esse magni voluptates enim ipsum, quas voluptatem
+                            aliquam mollitia est magnam ab? Dolores, asperiores sapiente fugiat vel ratione nihil itaque
+                            praesentium esse aperiam, culpa architecto ullam laboriosam quisquam. Ipsum obcaecati,
+                            officiis quaerat doloribus corporis dignissimos nostrum mollitia voluptatem eum cumque
+                            repellat iure libero atque exercitationem ullam amet delectus quis nesciunt ex illo
+                            voluptatum similique culpa eaque in! </p>
+
+
+                        <p class="article-paragraph text-justify">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam officia enim nemo
+                            eveniet ducimus reprehenderit adipisci porro omnis dolore id, veritatis perferendis atque
+                            optio amet architecto ad! Hic alias nobis fugit, fuga laborum at obcaecati. Voluptas autem
+                            dolore deserunt alias magni atque omnis vel est.
+                        </p>
+
+
+
+                        <p class="article-paragraph text-justify">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam officia enim nemo
+                            eveniet ducimus reprehenderit adipisci porro omnis dolore id, veritatis perferendis atque
+                            optio amet architecto ad! Hic alias nobis fugit, fuga laborum at obcaecati. Voluptas autem
+                            dolore deserunt alias magni atque omnis vel est.
+
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus minima debitis,
+                            sapiente voluptates libero nihil dolores sint quas officia maxime temporibus illo iste a
+                            laboriosam totam! Soluta nihil dicta magni.
+                        </p>
+
+
+                        <img src="../assets/IMG_2277.JPG" width="auto" height="50px" class="img-fluid" alt="">
+
+                        <p class="article-paragraph mt-5 text-justify">Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. Nisi
+                            quasi autem blanditiis nulla
+                            obcaecati corporis porro quas praesentium assumenda, a unde iure aspernatur at id! Hic nisi
+                            neque sequi ex. Iure explicabo, similique provident facilis eligendi omnis cumque nobis at
+                            quidem libero doloremque fuga quia enim nulla distinctio, placeat autem.</p>
+
+
+                        <div>
+                            <h1 class="article-heading-submain">Should I upgrade to Windows Server 2022?</h1>
+                            <p class="article-paragraph mt-5 text-justify">Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit.
+                                Nisi
+                                quasi autem blanditiis nulla
+                                obcaecati corporis porro quas praesentium assumenda, a unde iure aspernatur at id! Hic
+                                nisi
+                                neque sequi ex. Iure explicabo, similique provident facilis eligendi omnis cumque nobis
+                                at
+                                quidem libero doloremque fuga quia enim nulla distinctio, placeat autem.</p>
+                        </div>
+
+
+                        <div class="mt-5">
+                            <h4 class="related-last-catagories">Related Topics:</h4>
+                            <a class="related-last-catagories-anchor" href="details.html">Windows Server 2021</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="member-login">
+                    <div class="row">
+                        <div class="member-login-div col-md-6 float-left">
+                            <h3 class="member-login-heading">Member Login :</h3>
+                            <form action="" class="form">
+                                <label for="email" class="label">Email: </label>
+                                <input class="form-control form-class" type="email" name="email" placeholder="Email">
+                                <label for="password" class="label">password: </label>
+                                <input class="form-control form-class" type="password" name="password"
+                                    placeholder="password">
+                                <div class="div-membership-forgot">
+                                    <a href="#" class="forgot-password">Forgot Password</a>
+                                    <input type="submit" value="submit" class="btn btn-member">
+                                </div>
+
+                            </form>
+                        </div>
+
+                        <div class="col-md-6 float-left register-member">
+                            <h2 class="register-heading">BECOME A CloudHeros MEMBER:</h2>
+                            <p class="register-paragragh">Don't have a login but want to join the conversation? Sign up
+                                for a CloudHeros Account
+                            </p>
+                            <button class="btn btn-register">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 more-content">
+                <div class="more-content-div">
+                    <div class="newsLetter-div">
+                        <div class="titlefield">
+                            <h2 class="newsLetter-heading">SUBSCRIBE TO CLOUDHEROS NEWSLETTERS</h2>
+
+                            <p class="newsLetter-paragraph text-justify">The CloudHeros.com shares the deep technology
+                                articles from
+                                MVPs and our own experts every Friday. Register for this weekly newsletter filled with
+                                the most impactful the CloudHeros.com articles from that week.
+                                <br> <br> Sign up for our newsletters here.</p>
+                        </div>
+
+                        <div class="emailfield">
+                            <form action="" class="form">
+                                <input class="form-control form-input" type="email" placeholder="Email">
+                                <button class="btn btn-newsLetter">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+
+
+
+                    <!--  Related Articles -->
+
+
+
+                    <div class="moreArticles-div">
+                        <div class="more-heading-div">
+                            <h1 class="more-heading">Related Articles</h1>
+                            <hr class="horizontle">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 mt-5 related-overview">
+                                <div class="col-md-6 related-sub-overview img-related float-left">
+                                    <a href="details.html"><img src="../assets/rubrik-microsoft.png" class="img-fluid" width="auto"
+                                            height="200px" alt=""></a>
+                                </div>
+                                <div class="col-md-6 related-sub-overview float-left mt-2">
+                                    <span class="span-a-overview">Overview</span>
+                                    <h4 class="heading-overview"><a href="details.html">Windows Server 2022 Series - Upgrading DC
+                                            from 2016 to 2022</a></h4>
+                                    <span class="date-overview">Aug 17, 2021 | Michael Reinders</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-md-12 mt-5 related-overview">
+                                <div class="col-md-6 related-sub-overview img-related float-left">
+                                    <a href="details.html"><img src="../assets/rubrik-microsoft.png" class="img-fluid" width="auto"
+                                            height="200px" alt=""></a>
+                                </div>
+                                <div class="col-md-6 related-sub-overview float-left mt-2">
+                                    <span class="span-a-overview">Overview</span>
+                                    <h4 class="heading-overview"><a href="details.html">Windows Server 2022 Series - Upgrading DC
+                                            from 2016 to 2022</a></h4>
+                                    <span class="date-overview">Aug 17, 2021 | Michael Reinders</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row">
+                            <div class="col-md-12 mt-5 related-overview">
+                                <div class="col-md-6 related-sub-overview img-related float-left">
+                                    <a href="details.html"><img src="../assets/rubrik-microsoft.png" class="img-fluid" width="auto"
+                                            height="200px" alt=""></a>
+                                </div>
+                                <div class="col-md-6 related-sub-overview float-left mt-2">
+                                    <span class="span-a-overview">Overview</span>
+                                    <h4 class="heading-overview"><a href="details.html">Windows Server 2022 Series - Upgrading DC
+                                            from 2016 to 2022</a></h4>
+                                    <span class="date-overview">Aug 17, 2021 | Michael Reinders</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row">
+                            <div class="col-md-12 mt-5 related-overview">
+                                <div class="col-md-6 related-sub-overview img-related float-left">
+                                    <a href="details.html"><img src="../assets/rubrik-microsoft.png" class="img-fluid" width="auto"
+                                            height="200px" alt=""></a>
+                                </div>
+                                <div class="col-md-6 related-sub-overview float-left mt-2">
+                                    <span class="span-a-overview">Overview</span>
+                                    <h4 class="heading-overview"><a href="details.html">Windows Server 2022 Series - Upgrading DC
+                                            from 2016 to 2022</a></h4>
+                                    <span class="date-overview">Aug 17, 2021 | Michael Reinders</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="newsLetter-div2">
+                <div class="titlefield">
+                    <h2 class="newsLetter-heading">SUBSCRIBE TO CLOUDHEROS NEWSLETTERS</h2>
+
+                    <p class="newsLetter-paragraph text-justify">The CloudHeros.com shares the deep technology articles
+                        from
+                        MVPs and our own experts every Friday. Register for this weekly newsletter filled with
+                        the most impactful the CloudHeros.com articles from that week.
+                        <br> <br> Sign up for our newsletters here.</p>
+                </div>
+
+                <div class="emailfield">
+                    <form action="" class="form">
+                        <input class="form-control form-input" type="email" placeholder="Email">
+                        <button class="btn btn-newsLetter">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- Footer -->
+
+
+
+
+    <footer class="footer">
+        <div class="footer__logo__box">
+
+            <img src="../assets/IMG_2250.PNG" alt="" width="300px" class="footer-logo" />
+
+        </div>
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-6 float-left">
+                    <div class="footer__navigation">
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
+                            <li class="footer__item"><a href="contact.html" class="footer__link">Contact us</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Carrers</a></li>
+                            <li class="footer__item"><a href="contact.html" class="footer__link">Privacy policy</a></li>
+                            <li class="footer__item"><a href="contact.html" class="footer__link">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 float-left">
+                    <p class="footer__copyright">
+                        Built by <a href="#" class="footer__link">The CloudHeros</a> IT Managment Security System <a
+                            href="#" class="footer__link">Company</a>.
+                        Copyright &copy; by The CloudHeros You are 100% allowed to use this webpage for both personal
+                        and Business
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div class="FollowPart text-center ">
+                <div class="icon-div">
+                    <span class="follow-span">Follow us : </span>
+                    <a class="icon" href="#"><i class="fab fa-facebook"></i></a>
+                    <a class="icon" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="icon" href="#"><i class="fab fa-linkedin"></i></a>
+                    <a class="icon" href="#"><i class="fab fa-google-plus-g"></i></a>
+                </div>
+                <div>
+                    <p class="follower-title">© 2021 Danish Software Group</p> <a class="folloer-ploiy" href="contact.html">Privacy
+                        Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

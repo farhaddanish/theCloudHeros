@@ -1,0 +1,718 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap');
+
+
+
+:root {
+    --nightMare-blue: #6C63FF;
+    --teal-black: #707070;
+    --tiny-black: #003A5A;
+    --selmaon-black: #222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--teal-black);
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* nav */
+
+
+.navbar-main-style {
+    font-size: 1.6rem;
+    font-weight: 400;
+    word-spacing: 0.2rem;
+}
+
+.nav-link:not(.nav-account) {
+    color: var(--nightMare-blue) !important;
+}
+
+.nav-account {
+    font-size: 1.8rem;
+    vertical-align: middle;
+}
+
+
+.navbar-brand {
+    font-size: 2.2rem !important;
+}
+
+.navbar-div {
+    justify-content: flex-end;
+}
+
+
+.left-dropdown {
+    left: unset !important;
+    right: 0 !important;
+}
+
+.navbar-animation {
+    font-size: 1.6rem;
+    color: var(--nightMare-blue);
+    vertical-align: middle;
+}
+
+.SmallScreen {
+    display: none;
+}
+
+.navbar-animation:hover .dropdown-show {
+    transition: all 1s;
+    display: block;
+    font-size: 1.3rem;
+    background-color: var(--nightMare-blue);
+
+}
+
+.dropdown-show {
+    background-color: var(--nightMare-blue);
+    font-size: 1.3rem;
+}
+
+.dropdown-show a {
+    color: white;
+
+}
+
+
+@media (max-width:992px) {
+    .SmallScreen {
+        display: block;
+    }
+
+    .BigScreen {
+        display: none;
+    }
+}
+
+
+
+
+/* main section */
+
+
+.sinlge-content-title {
+    padding: 0rem 4rem 3rem 0;
+}
+
+.single-t-anchor {
+    font-size: 1.6rem;
+    color: var(--nightMare-blue);
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.single-t-anchor:hover {
+    text-decoration: none;
+}
+
+
+.single-t-heading {
+    font-size: 2.8rem;
+    color: black;
+    word-spacing: 0.2rem;
+    margin-top: 2.6rem;
+    margin-bottom: 1.7rem;
+    font-weight: 600;
+}
+
+
+.single-t-span {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    color: black;
+}
+
+
+
+/* newsLetter */
+
+
+.more-content {
+    width: 100%;
+}
+
+
+.more-content-div {
+    margin-top: 3rem;
+    height: auto;
+
+}
+
+.newsLetter-div {
+    height: auto;
+    background-color: var(--nightMare-blue);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
+    color: white;
+    padding: 4rem 3rem 4rem 3rem;
+    width: 100%;
+    border-radius: 0.25rem;
+}
+
+
+
+.newsLetter-heading {
+    font-size: 2.3rem;
+    color: white;
+    margin-bottom: 1.3rem;
+}
+
+.newsLetter-paragraph {
+    font-size: 1.35rem;
+    line-height: 1.6;
+    text-justify: newspaper;
+}
+
+.emailfield {
+    margin-top: 3rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+
+.form-input {
+    font-size: 1.4rem;
+}
+
+
+.btn-newsLetter {
+    margin-top: 2rem;
+    background-color: var(--nightMare-blue);
+    color: white;
+    font-size: 1.6rem;
+    transition: all 0.5s;
+    padding: 1rem 2.5rem;
+}
+
+.btn-newsLetter:hover {
+    background-color: white;
+    color: var(--nightMare-blue);
+}
+
+
+
+
+/* Article */
+
+
+
+.article-content {
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+
+.article-paragraph {
+    font-size: 1.6rem;
+    color: var(--selmaon-black);
+    line-height: 1.4;
+    letter-spacing: 0.04rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    font-family: 'Cabin', sans-serif;
+}
+
+
+.article-heading-submain {
+    color: var(--nightMare-blue);
+    font-size: 2.8rem;
+}
+
+
+.related-last-catagories {
+    color: var(--selmaon-black);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+
+.related-last-catagories-anchor {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--nightMare-blue);
+}
+
+
+
+
+/* Related articles */
+
+
+
+
+
+.moreArticles-div {
+    margin-top: 5rem;
+}
+
+.more-heading-div {
+    color: var(--selmaon-black);
+    padding-left: 2rem;
+}
+
+.horizontle {
+    color: var(--nightMare-blue);
+    border: 1px solid var(--nightMare-blue)
+}
+
+.img-related {
+    padding: 0 !important;
+}
+
+.span-a-overview {
+
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--selmaon-black);
+}
+
+.heading-overview {
+    font-size: 1.4rem;
+    color: var(--nightMare-blue);
+    text-decoration: none;
+}
+
+.date-overview {
+    color: var(--selmaon-black);
+    font-size: 1.1rem;
+}
+
+
+.heading-overview a {
+    text-decoration: none;
+    color: var(--nightMare-blue);
+    transition: all 0.5s;
+}
+
+.heading-overview a:hover {
+    text-decoration: none;
+    color: #007bff;
+}
+
+
+
+/* member Login */
+
+
+.member-login {
+    margin: 2rem;
+    padding: 2rem;
+    border: 0.5px solid var(--teal-black);
+}
+
+
+.register-member {
+    border-left: 0.5px solid var(--teal-black);
+}
+
+.member-login-heading {
+    color: var(--selmaon-black);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.label {
+    font-size: 1.3rem;
+    color: var(--selmaon-black);
+}
+
+
+.form-class {
+    font-size: 1.4rem;
+    color: var(--selmaon-black);
+}
+
+.form-class:hover,
+.form-class:focus {
+    border-color: var(--nightMare-blue);
+    outline: none;
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: var(--nightMare-blue);
+    font-size: 1.2rem;
+}
+
+
+.div-membership-forgot {
+    margin-top: 2rem;
+    text-align: right;
+
+}
+
+.btn-member {
+    text-align: center;
+    width: 100%;
+    background-color: var(--nightMare-blue);
+    color: white;
+    margin-top: 3rem;
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    transition: all 0.5s;
+    text-transform: uppercase;
+}
+
+.btn-member:hover {
+    color: white;
+    background-color: var(--tiny-black);
+}
+
+
+.register-heading {
+
+    color: var(--selmaon-black);
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.register-paragragh {
+    font-size: 1.3rem;
+    color: var(--selmaon-black);
+}
+
+
+.btn-register {
+    margin-top: 2rem;
+    background-color: var(--nightMare-blue);
+    color: white;
+    font-size: 1.6rem;
+    transition: all 0.5s;
+    padding: 1rem 2.5rem;
+}
+
+.btn-register:hover {
+    font-size: 1.6rem;
+    background-color: var(--tiny-black);
+}
+
+
+
+/* footer */
+
+
+
+.footer {
+    padding: 5rem 0 2rem 0;
+    font-size: 1rem;
+}
+
+
+
+.footer__logo__box {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.footer-logo {
+    width: 15rem;
+    height: auto;
+}
+
+.footer__navigation {
+    border-top: 1px solid black;
+    padding-top: 2rem;
+    display: inline-block;
+    font-size: 1.6rem;
+}
+
+
+.footer__list {
+    list-style: none;
+}
+
+
+.footer__item {
+    display: inline-block;
+}
+
+
+.footer__item:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+
+
+.footer__link:link,
+.footer__link:visited {
+    color: var(--nightMare-blue);
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+
+
+.footer__copyright {
+    border-top: 1px solid black;
+    padding-top: 1rem;
+    width: 80%;
+    float: right;
+    font-size: 1.4rem;
+}
+
+
+/* icon */
+
+
+
+.FollowPart {
+    margin-top: 4rem;
+}
+
+.follow-span {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: black;
+}
+
+.icon {
+    font-size: 1.6rem;
+    color: black;
+    padding: 0 0.5rem;
+}
+
+
+.icon:hover {
+    color: var(--nightMare-blue);
+
+
+}
+
+.follower-title {
+    display: inline-block;
+    color: black;
+    font-size: 1.4rem;
+}
+
+.folloer-ploiy {
+    margin-left: 2rem;
+    display: inline-block;
+    font-size: 1.2rem;
+    color: var(--nightMare-blue);
+}
+
+
+
+
+
+/*    Responsive Design */
+
+
+
+
+@media only screen and (min-width:75em) {
+
+    /* 1200 */
+    .newsLetter-div2 {
+        display: none;
+    }
+
+    .newsLetter-div {
+        display: block;
+    }
+}
+
+
+
+@media only screen and (max-width:75em) {
+
+    /* 1200 */
+    html {
+        /* font-size: 9px; */
+        font-size: 56.25%;
+    }
+
+
+    .more-content {
+        padding-right: 0rem !important;
+    }
+
+
+    .related-overview {
+        padding-right: 0rem !important;
+    }
+
+
+    .related-sub-overview {
+        padding-right: 0rem !important;
+    }
+
+    .newsLetter-div {
+        display: block;
+    }
+
+    .newsLetter-div2 {
+        display: none;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:64em) {
+
+    /* 1024 */
+    html {
+        /* font-size: 8px; */
+        font-size: 50%;
+    }
+
+    .navbar-brand {
+        margin-left: 2rem;
+    }
+
+    .navbar-div {
+        margin-left: 3rem;
+    }
+
+    .related-sub-overview {
+        float: none !important;
+        max-width: none !important;
+        padding-right: 15px !important;
+    }
+
+    .newsLetter-heading {
+        font-weight: 600;
+        font-size: 2.4rem;
+        text-align: center;
+    }
+
+    .newsLetter-paragraph {
+        font-size: 1.5rem;
+    }
+
+
+    .span-a-overview {
+        font-size: 1.5rem;
+    }
+
+    .heading-overview {
+        font-size: 1.6rem;
+    }
+
+    .date-overview {
+        font-size: 1.4rem;
+    }
+
+    .register-paragragh {
+        font-size: 1.4rem;
+    }
+
+    .newsLetter-div {
+        display: block;
+    }
+
+    .newsLetter-div2 {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width:47.9375em) {
+
+    /* 767 */
+    .article-content {
+        padding: 2rem 2rem 2rem 1rem;
+    }
+
+    .more-content {
+        padding-right: 15px !important;
+    }
+
+    .member-login {
+        margin: 0;
+    }
+
+    .member-login-heading {
+        font-size: 1.8rem;
+    }
+
+    .label {
+        font-size: 1.5rem;
+    }
+
+    .form-class {
+        font-size: 1.6rem;
+    }
+
+    .forgot-password {
+        font-size: 1.4rem;
+    }
+
+
+    .register-member {
+        border: none;
+
+        margin-top: 3rem;
+    }
+
+
+    .more-heading-div {
+        padding: 0;
+    }
+
+    .newsLetter-div {
+        display: none;
+    }
+
+    .newsLetter-div2 {
+        display: block;
+        margin-top: 5rem;
+        height: auto;
+        background-color: var(--nightMare-blue);
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
+        color: white;
+        padding: 4rem 3rem 4rem 3rem;
+        width: 100%;
+        border-radius: 0.25rem;
+    }
+}
+
+
+
+@media only screen and (max-width:30em) {
+
+    /* 480 */
+    html {
+        /* font-size: 7px; */
+        font-size: 43.75%;
+    }
+
+    .sinlge-content {
+        padding: 1rem !important;
+    }
+
+    .newsLetter-div2 {
+        margin: 1.9rem;
+        margin-top: 9rem;
+    }
+}
