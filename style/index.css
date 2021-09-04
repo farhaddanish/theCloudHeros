@@ -531,11 +531,11 @@ body {
     }
 
     .navbar-brand {
-        margin-left: 2rem;
+        margin-left: 0rem;
     }
 
     .navbar-div {
-        margin-left: 3rem;
+        margin-left: 2rem;
     }
 
 
@@ -811,7 +811,7 @@ body {
     }
 
     .navbar-brand {
-        margin-left: 1.5rem !important;
+        margin-left: 0rem !important;
     }
 
     .postSection-heading-anchor {

@@ -310,11 +310,11 @@ body {
 
     /* 1024 */
     .navbar-brand {
-        margin-left: 2rem !important;
+        margin-left: 0rem !important;
     }
 
     .navbar-div {
-        margin-left: 3rem !important;
+        margin-left: 2rem !important;
     }
 }
 

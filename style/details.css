@@ -586,11 +586,11 @@ body {
     }
 
     .navbar-brand {
-        margin-left: 2rem;
+        margin-left: 0rem;
     }
 
     .navbar-div {
-        margin-left: 3rem;
+        margin-left: 2rem;
     }
 
     .related-sub-overview {
