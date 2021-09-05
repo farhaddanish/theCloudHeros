@@ -2,52 +2,73 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CloudHeros - login</title>
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" href="../style/login.css" />
-    <script src="../bootstrap/jquery-3.5.1.min.js" defer></script>
-    <script src="../bootstrap/js/bootstrap.js" defer></script>
-    <link rel="stylesheet" href="../fontawesome-free-5.12.0-web/css/all.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TheCloudHeros - login</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="../fonts/material-icon/css/material-design-iconic-font.min.css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="../style/login.css">
+    <!-- faviocn -->
     <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io (5)/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io (5)/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io (5)/favicon-16x16.png">
     <link rel="manifest" href="../favicon_io (5)/site.webmanifest">
-    
 </head>
-
 
 <body>
 
-    <!-- Login div -->
 
-    <div class="wrapper fadeInDown">
-        <div id="formContent">
-            <div class="blue-div"></div>
+    <div class="main">
+        <!-- Sing in  Form -->
+        <section class="sign-in">
+            <div class="container">
+                <div class="signin-content">
+                    <div class="signin-image">
+                        <figure><img src="../assets/signin-image.jpg" alt="sing up image"></figure>
+                        <a href="#" class="signup-image-link">Create an account</a>
+                    </div>
 
-            <div class="fadeIn first heading">
-                <h1 class="login mt-3 mb-3">
-                    Login</h1>
+                    <div class="signin-form">
+                        <h2 class="form-title">Login</h2>
+                        <form method="POST" class="register-form" id="login-form">
+                            <div class="form-group">
+                                <label for="your_name"><i class="zmdi zmdi-email "></i></label>
+                                <input type="email" name="your_email" id="your_email" placeholder="Your Email" />
+                            </div>
+                            <div class="form-group">
+                                <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="your_pass" id="your_pass" placeholder="Password" />
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
+                                <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember
+                                    me</label>
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signin" id="signin" class="form-submit" value="Log in" />
+                            </div>
+                        </form>
+                        <a href="#" class="signup-image-link extra-link">Create an account</a>
+                        <div class="social-login">
+                            <span class="social-label">Or login with</span>
+                            <ul class="socials">
+                                <li><a href="#"><i class="display-flex-center zmdi zmdi-facebook"></i></a></li>
+                                <li><a href="#"><i class="display-flex-center zmdi zmdi-twitter"></i></a></li>
+                                <li><a href="#"><i class="display-flex-center zmdi zmdi-google"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
 
-            <form>
-                <input type="email" id="login" class="fadeIn second" name="login" placeholder="Email">
-                <input type="password" id="password" class="fadeIn third" name="login" placeholder="password">
-                <input type="submit" class="fadeIn fourth text-dark btn-login" value="Log In">
-            </form>
-
-            <div id="formFooter">
-                <a class="underlineHover " href="#">Forgot Password?</a>
-                <br>
-                <a class="underlineHover" href="signup.html">Sign Up</a>
-
-            </div>
-
-        </div>
     </div>
 
+    <!-- JS -->
+    <script src="../bootstrap/jquery-3.5.1.min.js"></script>
 </body>
 
 </html>
