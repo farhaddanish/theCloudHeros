@@ -1,74 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>TheCloudHeros - login</title>
+	<title>TheCloudHeros - Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Font Icon -->
-    <link rel="stylesheet" href="../fonts/material-icon/css/material-design-iconic-font.min.css">
-    <!-- Main css -->
-    <link rel="stylesheet" href="../style/login.css">
-    <!-- faviocn -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io (5)/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io (5)/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io (5)/favicon-16x16.png">
-    <link rel="manifest" href="../favicon_io (5)/site.webmanifest">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../ResgistretionFiles/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../fonts/material-icon/css/material-design-iconic-font.min.css">
+
+
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../ResgistretionFiles/css/util.css">
+	<link rel="stylesheet" type="text/css" href="../ResgistretionFiles/css/main.css">
+<!--===============================================================================================-->
 </head>
-
 <body>
+	
+	<div class="limiter">
+		
+		<div class="container-login100">
+			
+			<div class="wrap-login100">
+				
+				<form class="login100-form validate-form">
+					
+				
+					<span class="login100-form-title p-b-26">
+						Login
+					</span>
+					
+
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is: a@b.c">
+						<input class="input100" type="text" name="email">
+						<span class="focus-input100" data-placeholder="Email"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Enter password">
+						<span class="btn-show-pass">
+							<i class="zmdi zmdi-eye"></i>
+						</span>
+						<input class="input100" type="password" name="pass">
+						<span class="focus-input100" data-placeholder="Password"></span>
+					</div>
 
 
-    <div class="main">
-        <!-- Sing in  Form -->
-        <section class="sign-in">
-            <div class="container">
-                <div class="signin-content">
-                    <div class="signin-image">
-                        <figure><img src="../assets/signin-image.jpg" alt="sing up image"></figure>
-                        <a href="#" class="signup-image-link">Create an account</a>
-                    </div>
 
-                    <div class="signin-form">
-                        <h2 class="form-title">Login</h2>
-                        <form method="POST" class="register-form" id="login-form">
-                            <div class="form-group">
-                                <label for="your_name"><i class="zmdi zmdi-email "></i></label>
-                                <input type="email" name="your_email" id="your_email" placeholder="Your Email" />
-                            </div>
-                            <div class="form-group">
-                                <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
-                                <input type="password" name="your_pass" id="your_pass" placeholder="Password" />
-                            </div>
-                            <div class="form-group">
-                                <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
-                                <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember
-                                    me</label>
-                            </div>
-                            <div class="form-group form-button">
-                                <input type="submit" name="signin" id="signin" class="form-submit" value="Log in" />
-                            </div>
-                        </form>
-                        <a href="#" class="signup-image-link extra-link">Create an account</a>
-                        <div class="social-login">
-                            <span class="social-label">Or login with</span>
-                            <ul class="socials">
-                                <li><a href="#"><i class="display-flex-center zmdi zmdi-facebook"></i></a></li>
-                                <li><a href="#"><i class="display-flex-center zmdi zmdi-twitter"></i></a></li>
-                                <li><a href="#"><i class="display-flex-center zmdi zmdi-google"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn">
+								Login
+							</button>
+						</div>
+					</div>
 
-    </div>
+					<div class="text-center p-t-115">
+						<span class="txt1">
+							Don’t have an account?
+						</span>
 
-    <!-- JS -->
-    <script src="../bootstrap/jquery-3.5.1.min.js"></script>
+						<a class="txt2" href="./signup.html">
+							Sign Up
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	
+<!--===============================================================================================-->
+	<script src="../bootstrap/jquery-3.5.1.min.js"></script>
+<script src="../bootstrap/js/bootstrap.js"></script>
+
+
+<!--===============================================================================================-->
+	<script src="../ResgistretionFiles/js/main.js"></script>
+
 </body>
-
 </html>
