@@ -30,6 +30,21 @@
             </button>
 
             <div class="collapse navbar-collapse navbar-div" id="navbarNav">
+
+
+
+                <!-- small screen serach box -->
+                <div>
+                    <form onsubmit="event.preventDefault();" role="search" class="SmallScreen form-small-serach">
+                        <label for="search2">Search for stuff</label>
+                        <input id="search2" type="search" placeholder="Search..." autofocus required />
+                        <i type="submit" class="fa fa-search"></i>
+                    </form>
+                    <hr>
+                </div>
+
+
+
                 <ul class="navbar-nav mr-4">
                     <li class="nav-item dropdown navbar-animation navbar-main-style mr-3 BigScreen">
                         <a class="nav-link" href="mainItem.html" id="navbarDropdown">
@@ -72,7 +87,8 @@
 
 
                     <li class="nav-item dropdown navbar-animation navbar-main-style mr-3 BigScreen">
-                        <a class="nav-link" href="submain-server.html" id="navbarDropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link" href="submain-server.html" id="navbarDropdown" aria-haspopup="true"
+                            aria-expanded="false">
                             Server
                         </a>
                         <div class="dropdown-menu left-dropdown dropdown-show" aria-labelledby="navbarDropdown">
@@ -84,8 +100,8 @@
 
 
                     <li class="nav-item dropdown  navbar-main-style mr-3 SmallScreen">
-                        <a class="nav-link dropdown-toggle" href="submain-server.html" id="navbarDropdown" aria-haspopup="true"
-                            data-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="submain-server.html" id="navbarDropdown"
+                            aria-haspopup="true" data-toggle="dropdown" aria-expanded="false">
                             Server
                         </a>
                         <div class="dropdown-menu dropdown-show" aria-labelledby="navbarDropdown">
@@ -97,7 +113,8 @@
 
 
                     <li class="nav-item dropdown navbar-animation navbar-main-style mr-3 BigScreen">
-                        <a class="nav-link" href="submain-cloud.html" id="navbarDropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link" href="submain-cloud.html" id="navbarDropdown" aria-haspopup="true"
+                            aria-expanded="false">
                             Cloud
                         </a>
                         <div class="dropdown-menu left-dropdown dropdown-show" aria-labelledby="navbarDropdown">
@@ -112,8 +129,8 @@
                     <!-- Small Screen -->
 
                     <li class="nav-item dropdown  navbar-main-style mr-3 SmallScreen">
-                        <a class="nav-link dropdown-toggle" href="submain-cloud.html" id="navbarDropdown" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="submain-cloud.html" id="navbarDropdown"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Cloud
                         </a>
                         <div class="dropdown-menu left-dropdown dropdown-show" aria-labelledby="navbarDropdown">
@@ -122,6 +139,11 @@
                         </div>
                     </li>
 
+
+                    <!-- search icon big screen -->
+                    <li class="nav-item navbar-main-style mr-3 BigScreen">
+                        <a class="nav-link nav-account" id="search" href=""><i class="fa fa-search"></i></a>
+                    </li>
 
 
                     <li class="nav-item dropdown navbar-animation navbar-main-style mr-3">
@@ -135,6 +157,13 @@
                         </div>
                     </li>
                 </ul>
+
+                <!-- big screen serach box -->
+                <div class="search-form BigScreen">
+                    <form action="">
+                        <input class="input-serach" type="text" placeholder="Search...">
+                    </form>
+                </div>
             </div>
         </div>
     </nav>
@@ -214,7 +243,7 @@
                             quidem libero doloremque fuga quia enim nulla distinctio, placeat autem.</p>
 
 
-                        
+
 
 
                         <div class="mt-5">
@@ -291,12 +320,13 @@
                         <div class="row">
                             <div class="col-md-12 mt-5 related-overview">
                                 <div class="col-md-6 related-sub-overview img-related float-left">
-                                    <a href="details.html"><img src="../assets/rubrik-microsoft.png" class="img-fluid" width="auto"
-                                            height="200px" alt=""></a>
+                                    <a href="details.html"><img src="../assets/rubrik-microsoft.png" class="img-fluid"
+                                            width="auto" height="200px" alt=""></a>
                                 </div>
                                 <div class="col-md-6 related-sub-overview float-left mt-2">
                                     <span class="span-a-overview">Overview</span>
-                                    <h4 class="heading-overview"><a href="details.html">Windows Server 2022 Series - Upgrading DC
+                                    <h4 class="heading-overview"><a href="details.html">Windows Server 2022 Series -
+                                            Upgrading DC
                                             from 2016 to 2022</a></h4>
                                     <span class="date-overview">Aug 17, 2021 | Michael Reinders</span>
                                 </div>
@@ -307,29 +337,13 @@
                         <div class="row">
                             <div class="col-md-12 mt-5 related-overview">
                                 <div class="col-md-6 related-sub-overview img-related float-left">
-                                    <a href="details.html"><img src="../assets/rubrik-microsoft.png" class="img-fluid" width="auto"
-                                            height="200px" alt=""></a>
+                                    <a href="details.html"><img src="../assets/rubrik-microsoft.png" class="img-fluid"
+                                            width="auto" height="200px" alt=""></a>
                                 </div>
                                 <div class="col-md-6 related-sub-overview float-left mt-2">
                                     <span class="span-a-overview">Overview</span>
-                                    <h4 class="heading-overview"><a href="details.html">Windows Server 2022 Series - Upgrading DC
-                                            from 2016 to 2022</a></h4>
-                                    <span class="date-overview">Aug 17, 2021 | Michael Reinders</span>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div class="row">
-                            <div class="col-md-12 mt-5 related-overview">
-                                <div class="col-md-6 related-sub-overview img-related float-left">
-                                    <a href="details.html"><img src="../assets/rubrik-microsoft.png" class="img-fluid" width="auto"
-                                            height="200px" alt=""></a>
-                                </div>
-                                <div class="col-md-6 related-sub-overview float-left mt-2">
-                                    <span class="span-a-overview">Overview</span>
-                                    <h4 class="heading-overview"><a href="details.html">Windows Server 2022 Series - Upgrading DC
+                                    <h4 class="heading-overview"><a href="details.html">Windows Server 2022 Series -
+                                            Upgrading DC
                                             from 2016 to 2022</a></h4>
                                     <span class="date-overview">Aug 17, 2021 | Michael Reinders</span>
                                 </div>
@@ -341,12 +355,31 @@
                         <div class="row">
                             <div class="col-md-12 mt-5 related-overview">
                                 <div class="col-md-6 related-sub-overview img-related float-left">
-                                    <a href="details.html"><img src="../assets/rubrik-microsoft.png" class="img-fluid" width="auto"
-                                            height="200px" alt=""></a>
+                                    <a href="details.html"><img src="../assets/rubrik-microsoft.png" class="img-fluid"
+                                            width="auto" height="200px" alt=""></a>
                                 </div>
                                 <div class="col-md-6 related-sub-overview float-left mt-2">
                                     <span class="span-a-overview">Overview</span>
-                                    <h4 class="heading-overview"><a href="details.html">Windows Server 2022 Series - Upgrading DC
+                                    <h4 class="heading-overview"><a href="details.html">Windows Server 2022 Series -
+                                            Upgrading DC
+                                            from 2016 to 2022</a></h4>
+                                    <span class="date-overview">Aug 17, 2021 | Michael Reinders</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row">
+                            <div class="col-md-12 mt-5 related-overview">
+                                <div class="col-md-6 related-sub-overview img-related float-left">
+                                    <a href="details.html"><img src="../assets/rubrik-microsoft.png" class="img-fluid"
+                                            width="auto" height="200px" alt=""></a>
+                                </div>
+                                <div class="col-md-6 related-sub-overview float-left mt-2">
+                                    <span class="span-a-overview">Overview</span>
+                                    <h4 class="heading-overview"><a href="details.html">Windows Server 2022 Series -
+                                            Upgrading DC
                                             from 2016 to 2022</a></h4>
                                     <span class="date-overview">Aug 17, 2021 | Michael Reinders</span>
                                 </div>
@@ -425,12 +458,17 @@
                     <a class="icon" href="#"><i class="fab fa-google-plus-g"></i></a>
                 </div>
                 <div>
-                    <p class="follower-title">© 2021 Danish Software Group</p> <a class="folloer-ploiy" href="contact.html">Privacy
+                    <p class="follower-title">© 2021 Danish Software Group</p> <a class="folloer-ploiy"
+                        href="contact.html">Privacy
                         Policy</a>
                 </div>
             </div>
         </div>
     </footer>
+
+
+
+    <script src="../style/serach.js"></script>
 
 </body>
 

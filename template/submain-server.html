@@ -30,7 +30,26 @@
             </button>
 
             <div class="collapse navbar-collapse navbar-div" id="navbarNav">
+
+
+
+                <!-- small screen serach box -->
+                <div>
+                    <form onsubmit="event.preventDefault();" role="search" class="SmallScreen form-small-serach">
+                        <label for="search2">Search for stuff</label>
+                        <input id="search2" type="search" placeholder="Search..." autofocus required />
+                        <i type="submit" class="fa fa-search"></i>
+                    </form>
+                    <hr>
+                </div>
+
+
+
                 <ul class="navbar-nav mr-4">
+
+
+
+
                     <li class="nav-item dropdown navbar-animation navbar-main-style mr-3 BigScreen">
                         <a class="nav-link" href="mainItem.html" id="navbarDropdown">
                             Windows
@@ -72,7 +91,8 @@
 
 
                     <li class="nav-item dropdown navbar-animation navbar-main-style mr-3 BigScreen">
-                        <a class="nav-link" href="submain-server.html" id="navbarDropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link" href="submain-server.html" id="navbarDropdown" aria-haspopup="true"
+                            aria-expanded="false">
                             Server
                         </a>
                         <div class="dropdown-menu left-dropdown dropdown-show" aria-labelledby="navbarDropdown">
@@ -84,8 +104,8 @@
 
 
                     <li class="nav-item dropdown  navbar-main-style mr-3 SmallScreen">
-                        <a class="nav-link dropdown-toggle" href="submain-server.html" id="navbarDropdown" aria-haspopup="true"
-                            data-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="submain-server.html" id="navbarDropdown"
+                            aria-haspopup="true" data-toggle="dropdown" aria-expanded="false">
                             Server
                         </a>
                         <div class="dropdown-menu dropdown-show" aria-labelledby="navbarDropdown">
@@ -97,7 +117,8 @@
 
 
                     <li class="nav-item dropdown navbar-animation navbar-main-style mr-3 BigScreen">
-                        <a class="nav-link" href="submain-cloud.html" id="navbarDropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link" href="submain-cloud.html" id="navbarDropdown" aria-haspopup="true"
+                            aria-expanded="false">
                             Cloud
                         </a>
                         <div class="dropdown-menu left-dropdown dropdown-show" aria-labelledby="navbarDropdown">
@@ -112,14 +133,21 @@
                     <!-- Small Screen -->
 
                     <li class="nav-item dropdown  navbar-main-style mr-3 SmallScreen">
-                        <a class="nav-link dropdown-toggle" href="submain-cloud.html" id="navbarDropdown" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="submain-cloud.html" id="navbarDropdown"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Cloud
                         </a>
                         <div class="dropdown-menu left-dropdown dropdown-show" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">Google Cloud</a>
                             <a class="dropdown-item" href="#">Microsoft Azure</a>
                         </div>
+                    </li>
+
+
+
+                    <!-- search icon big screen -->
+                    <li class="nav-item navbar-main-style mr-3 BigScreen">
+                        <a class="nav-link nav-account" id="search" href=""><i class="fa fa-search"></i></a>
                     </li>
 
 
@@ -135,6 +163,13 @@
                         </div>
                     </li>
                 </ul>
+
+                <!-- big screen serach box -->
+                <div class="search-form BigScreen">
+                    <form action="">
+                        <input class="input-serach" type="text" placeholder="Search...">
+                    </form>
+                </div>
             </div>
         </div>
     </nav>
@@ -453,12 +488,16 @@
                     <a class="icon" href="#"><i class="fab fa-google-plus-g"></i></a>
                 </div>
                 <div>
-                    <p class="follower-title">© 2021 Danish Software Group</p> <a class="folloer-ploiy" href="contact.html">Privacy
+                    <p class="follower-title">© 2021 Danish Software Group</p> <a class="folloer-ploiy"
+                        href="contact.html">Privacy
                         Policy</a>
                 </div>
             </div>
         </div>
     </footer>
+
+
+    <script src="../style/serach.js"></script>
 
 </body>
 
