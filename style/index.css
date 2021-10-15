@@ -6,6 +6,7 @@
     --teal-black: #707070;
     --tiny-black: #003A5A;
     --selmaon-black: #222;
+    --cloudy-blue: #007bff;
 }
 
 * {
@@ -89,19 +90,11 @@ body {
 }
 
 .dropdown-show a {
-    color: white;
+    color: #fff;
 }
 
 
-@media (max-width:992px) {
-    .SmallScreen {
-        display: block;
-    }
 
-    .BigScreen {
-        display: none;
-    }
-}
 
 
 
@@ -112,7 +105,7 @@ body {
 }
 
 .header-container {
-    padding: 5rem 2rem 0rem 2rem;
+    padding: 8rem 2rem 0rem 2rem;
     width: 100%;
     overflow: hidden;
 }
@@ -204,7 +197,7 @@ body {
 }
 
 .postSection-heading-anchor a:hover {
-    color: #007bff;
+    color: var(--cloudy-blue);
 }
 
 
@@ -243,7 +236,7 @@ body {
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
     padding: 2rem 3rem;
     margin: 0 8rem;
-    color: white;
+    color: #fff;
 }
 
 .newsLetter-div {
@@ -288,14 +281,14 @@ body {
 .btn-newsLetter {
     margin-top: 2rem;
     background-color: var(--nightMare-blue);
-    color: white;
+    color: #fff;
     font-size: 1.6rem;
     transition: all 0.5s;
     padding: 1rem 2.5rem;
 }
 
 .btn-newsLetter:hover {
-    background-color: white;
+    background-color: #fff;
     color: var(--nightMare-blue);
 }
 
@@ -608,6 +601,21 @@ body {
 
 
 
+
+@media (max-width:992px) {
+    .SmallScreen {
+        display: block;
+    }
+
+    .BigScreen {
+        display: none;
+    }
+}
+
+
+
+
+
 @media only screen and (max-width:1250px) {
     .search-form {
 
@@ -693,6 +701,12 @@ body {
         font-size: 50%;
     }
 
+
+
+    .card-position {
+        justify-content: center;
+    }
+
     .header-image {
         width: auto;
         height: 300px;
@@ -735,6 +749,10 @@ body {
         font-size: 48.125%;
     }
 
+    .card-position {
+        justify-content: center;
+    }
+
     .navbar-brand {
         margin-left: 0rem;
     }
@@ -770,6 +788,11 @@ body {
     html {
         /* font-size: 7.2px; */
         font-size: 45%;
+    }
+
+
+    .card-position {
+        justify-content: center;
     }
 
     .header-image {
@@ -815,7 +838,7 @@ body {
 
     /* 860 */
     .card-position {
-        justify-content: safe;
+        justify-content: center;
     }
 
     .newsLetter-paragraph {
@@ -928,7 +951,8 @@ body {
     /* 665 */
     html {
         /* font-size: 9px; */
-        font-size: 56.25%;
+        /* font-size: 56.25%; */
+        font-size: 55%;
     }
 
     .header-right-setion {

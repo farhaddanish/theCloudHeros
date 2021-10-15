@@ -6,6 +6,8 @@
     --teal-black: #707070;
     --tiny-black: #003A5A;
     --selmaon-black: #222;
+    --cloudy-blue: #007bff;
+
 }
 
 * {
@@ -87,7 +89,7 @@ body {
 }
 
 .dropdown-show a {
-    color: white;
+    color: #fff;
 }
 
 
@@ -109,7 +111,7 @@ body {
 
 
 .aboutSection {
-    margin-top: 5rem;
+    margin-top: 8rem;
 }
 
 
@@ -413,7 +415,7 @@ body {
     opacity: 1;
     visibility: visible;
     transition-delay: 1s;
-   
+
 }
 
 

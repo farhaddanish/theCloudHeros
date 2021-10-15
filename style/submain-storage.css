@@ -6,6 +6,8 @@
     --teal-black: #707070;
     --tiny-black: #003A5A;
     --selmaon-black: #222;
+    --cloudy-blue: #007bff;
+
 }
 
 * {
@@ -86,7 +88,7 @@ body {
 }
 
 .dropdown-show a {
-    color: white;
+    color: #fff;
 
 }
 
@@ -107,7 +109,7 @@ body {
 .headerPart {
     display: flex;
     padding: 2rem;
-    margin: 0rem 1.5rem 0rem 1.5rem;
+    margin: 5.6rem 1.5rem 0rem 1.5rem;
     background-color: #ffc107;
     height: 250px;
     border-radius: 0 0 85% 85% / 30%;
@@ -123,7 +125,7 @@ body {
 
 
 .header-heading {
-    color: white;
+    color: #fff;
     font-size: 3rem;
     font-weight: 600;
     text-transform: capitalize;
@@ -131,7 +133,7 @@ body {
 
 .icon-haeding {
     font-size: 9rem;
-    color: white;
+    color: #fff;
     margin-right: 2rem;
 }
 
@@ -164,7 +166,7 @@ body {
 }
 
 .postSection-heading-anchor a:hover {
-    color: #007bff;
+    color: var(--cloudy-blue);
 }
 
 
@@ -204,7 +206,7 @@ body {
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
     padding: 2rem 3rem;
     margin: 0 8rem;
-    color: white;
+    color: #fff;
 }
 
 .newsLetter-div {
@@ -249,14 +251,14 @@ body {
 .btn-newsLetter {
     margin-top: 2rem;
     background-color: var(--nightMare-blue);
-    color: white;
+    color: #fff;
     font-size: 1.6rem;
     transition: all 0.5s;
     padding: 1rem 2.5rem;
 }
 
 .btn-newsLetter:hover {
-    background-color: white;
+    background-color: #fff;
     color: var(--nightMare-blue);
 }
 
@@ -280,7 +282,7 @@ body {
     height: auto;
     background-color: var(--nightMare-blue);
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
-    color: white;
+    color: #fff;
     padding: 4rem 3rem 4rem 3rem;
     width: 100%;
     border-radius: 0.25rem;
@@ -290,7 +292,7 @@ body {
 
 .small-newsLetter-heading {
     font-size: 2.3rem;
-    color: white;
+    color: #fff;
     margin-bottom: 1.3rem;
     /* font-weight: 600; */
 }
@@ -316,14 +318,14 @@ body {
 .btn-newsLetter {
     margin-top: 2rem;
     background-color: var(--nightMare-blue);
-    color: white;
+    color: #fff;
     font-size: 1.6rem;
     transition: all 0.5s;
     padding: 1rem 2.5rem;
 }
 
 .btn-newsLetter:hover {
-    background-color: white;
+    background-color: #fff;
     color: var(--nightMare-blue);
 }
 
@@ -422,7 +424,7 @@ body {
 
 .heading-overview a:hover {
     text-decoration: none;
-    color: #007bff;
+    color: var(--cloudy-blue);
 }
 
 
@@ -437,7 +439,7 @@ body {
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
     padding: 2rem 3rem;
     margin: 0 8rem;
-    color: white;
+    color: #fff;
 }
 
 .newsLetter-div {
@@ -482,14 +484,14 @@ body {
 .btn-newsLetter {
     margin-top: 2rem;
     background-color: var(--nightMare-blue);
-    color: white;
+    color: #fff;
     font-size: 1.6rem;
     transition: all 0.5s;
     padding: 1rem 2.5rem;
 }
 
 .btn-newsLetter:hover {
-    background-color: white;
+    background-color: #fff;
     color: var(--nightMare-blue);
 }
 
@@ -718,7 +720,7 @@ body {
     opacity: 1;
     visibility: visible;
     transition-delay: 1s;
-   
+
 }
 
 
