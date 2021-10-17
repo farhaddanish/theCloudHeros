@@ -746,7 +746,7 @@ body {
     font-size: 1.6rem;
 }
 
-.form-small-serach input[type="search"] {
+.form-small-serach input[type="text"] {
     outline: 0;
     width: 100%;
     /* background: rgb(238, 238, 238);
@@ -761,7 +761,7 @@ body {
     position: relative;
 }
 
-.form-small-serach i {
+.form-small-serach button {
     display: block;
     position: absolute;
     top: 8px;
@@ -775,10 +775,11 @@ body {
     cursor: pointer;
     transition: all 0.5s;
     text-align: center;
+    border: none;
 }
 
 
-.form-small-serach i:hover {
+.form-small-serach button:hover {
     transform: scale(0.8)
 }
 

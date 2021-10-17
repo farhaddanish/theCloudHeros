@@ -300,6 +300,7 @@ body {
 
 
 .footer {
+    
     padding: 5rem 0 2rem 0;
     font-size: 1rem;
 }
@@ -543,7 +544,7 @@ body {
     font-size: 1.6rem;
 }
 
-.form-small-serach input[type="search"] {
+.form-small-serach input[type="text"] {
     outline: 0;
     width: 100%;
     /* background: rgb(238, 238, 238);
@@ -558,7 +559,7 @@ body {
     position: relative;
 }
 
-.form-small-serach i {
+.form-small-serach button {
     display: block;
     position: absolute;
     top: 10px;
@@ -572,11 +573,18 @@ body {
     cursor: pointer;
     transition: all 0.5s;
     text-align: center;
+    border: none;
 }
 
 
-.form-small-serach i:hover {
+
+.form-small-serach button:hover {
     transform: scale(0.8)
+}
+
+
+.form-small-serach button:focus {
+    border: none;
 }
 
 .form-small-serach input:not(:placeholder-shown) {
