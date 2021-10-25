@@ -6,9 +6,9 @@ $(document).ready(function () {
         $('.menu-item').toggleClass('hide-item');
         $('.search-form').toggleClass('active-serach-form');
         $('.serach-dropdown').toggleClass('hide-dropdown');
-        // $('.input-serach').attr('autofocus','on');
-
-
-
+        $('#search-id').focus()
+        document.getElementById('search-id').querySelector('input').setAttribute('autofocus','autofocus')
+        console.log(document.getElementById('search-id').querySelector('input'))
     });
+    
 });
